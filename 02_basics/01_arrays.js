@@ -13,5 +13,10 @@ console.log(arr);
 arr.shift("hello"); // Adds value at the start of array and shifts all the elements to right side
 console.log(arr.shift()) // delete the first element of array and return the first element from thr updated array or undefined if array becomes empty
 
-let b=[]
-//console.log(k);
+console.log(arr.slice(1,3));    // slice() returns array from index i to j-1 and donot manupilate the original array
+console.log("original Array ",arr);
+
+console.log(arr.splice(1,3));   //splice() returns array from index i to j(included) and Manupilate the original array
+console.log("Modified Array ",arr);
+
+
