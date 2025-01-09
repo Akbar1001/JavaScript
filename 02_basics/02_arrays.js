@@ -12,13 +12,8 @@ console.log(all);   // all the arrays get concatenated
 const arr=Array.from("Akbar 20/12/2003");
 console.log(arr);
 /* O/P->
-[
-  'A', 'k', 'b', 'a',
-  'r', ' ', '2', '0',
-  '/', '1', '2', '/',
-  '2', '0', '0', '3'
-]
-  */
+['A', 'k', 'b', 'a', 'r', ' ', '2', '0', '/', '1', '2', '/', '2', '0', '0', '3']
+*/
 //console.log(Array.from(9089,555,990));  // Error and a Single number as parameter will not gets converted into its digits array
 
 //Array.from(9089,555,990) -> O/P => [] + Error
