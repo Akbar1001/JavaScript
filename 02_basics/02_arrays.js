@@ -23,4 +23,3 @@ console.log(arr);
 // To covert a set of variavles into array we use Array.of()
 
 let a=2,b="hi",c=true,d=4.5;
-console.log(Array.of(a,b,c,d));
