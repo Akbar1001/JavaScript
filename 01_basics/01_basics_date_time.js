@@ -1,6 +1,8 @@
 // Data & time in JS
-let d = new Date();
+let d = new Date(); //Since parameter is empty so Current date is assigned to 'd'
+//JavaScript counts months from 0 to 11
 
+//Different ways to Display Date
 console.log(d.toDateString()) // Sun Jan 05 2025
 
 console.log(d.toString());  //  Sun Jan 05 2025 07:01:17 GMT+0000 (Coordinated Universal Time)
