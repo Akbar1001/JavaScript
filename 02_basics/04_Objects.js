@@ -28,3 +28,19 @@ console.log(obj3); // O/p --> { '1': 'a', '2': 'c', '3': 'd' }
 // 2nd way( Most Used) = Speard technique
 const obj4={...obj1,...obj2};
 console.log(obj4);  // O/p -> { '1': 'a', '2': 'c', '3': 'd' }
+// If you want to access only the keys or values of Objects
+//we use Object.keys(object_name) mehtod
+//we use Object.values(object_name) mehtod
+// the Return type of above methods is ARRAY
+console.log("keys : ");
+console.log(Object.keys(tinder));
+console.log("values : ");
+console.log(Object.values(tinder));
+
+// De-structuring of Objects
+const course={
+    name:"DSA",
+    price:"0",
+    instructor:"Akbar"
+}
+console.log(course.instructor);
