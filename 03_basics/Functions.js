@@ -62,4 +62,8 @@ function handleObject(userObject){
 handleObject(user)
 /*O/p-> Akbar has ID :4556 
         Total Bill Amount is : 7766 */
-        
+//Passing Array as Argument
+function tryArray(arr){
+    return arr.length
+}
+console.log(tryArray([1,5,true,false,"Hii","uuuu",6.8]));   //O/p -> 7
