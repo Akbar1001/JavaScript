@@ -44,3 +44,18 @@ const course={
     instructor:"Akbar"
 }
 console.log(course.instructor);
+
+// to iterate in objects we use for-in loops
+
+const myobj={
+    IN:"India",
+    AUS:"Australia",
+    NZ:"New zealand",
+    ENG:"ENgland"
+}
+for (const key in myobj){
+    // this key will hold only key value 
+    // access value of key we use obj_name[key]
+    console.log(` keys: ${key} -> value: ${myobj[key]}`);
+    
+}
